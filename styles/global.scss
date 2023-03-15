@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: $font-family-basic;
+	color: $black-color;
+	background-color: $white-color;
+	// position: relative;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-size: rem(16);
+	&:last-child {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+}
+
+ul,
+ol {
+	list-style: none;
+
+	li {
+		&:last-child {
+			margin-bottom: 0;
+			padding-bottom: 0;
+		}
+	}
+}

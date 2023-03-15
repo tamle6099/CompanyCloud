@@ -1,0 +1,31 @@
+{
+  "heading": {
+    "title": "What is the Company?",
+    "content": "The provision of modern solutions based on affordable, but highly available, cloud infrastructure.",
+    "subContent": [],
+    "buttonContent": ""
+  },
+  "contents": [
+    {
+      "name": "Security Operations",
+      "description": "With the help of cloud security, we Security Operations from the Internet, among other things, and can make filter decisions based on various factors.",
+      "image": "/images/svg/identity-and-access-management.svg",
+      "buttonContent": "Learn more..",
+      "url": "https://zingnews.vn/"
+    },
+    {
+      "name": "EProfessional Services",
+      "description": "Queries and communication with Company-Cloud Intelligence have no impact on the performance and effectiveness of our products and solutions.",
+      "image": "/images/svg/premium-network-tier.svg",
+      "buttonContent": "Learn more..",
+      "url": "https://zingnews.vn/"
+    },
+    {
+      "name": "Data Intelligence",
+      "description": "Data protection is always a priority for us, which is why the data from Comapny-Intelligence is encrypted at runtime and is therefore not visible even to administrators.",
+      "image": "/images/svg/private.svg",
+      "buttonContent": "Learn more..",
+      "url": "hhttps://zingnews.vn/"
+    }
+  ]
+}

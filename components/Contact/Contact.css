@@ -1,0 +1,28 @@
+.contact-img {
+  -webkit-animation: float 2s infinite;
+          animation: float 2s infinite;
+}
+
+@-webkit-keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(1.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(1.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}/*# sourceMappingURL=Contact.css.map */

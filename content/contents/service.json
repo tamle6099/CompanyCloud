@@ -1,0 +1,31 @@
+{
+  "heading": {
+    "title": "Advantages",
+    "content": "Our cloud-native products are characterized by flexibility, scalability and very high availability.",
+    "subContent": [],
+    "buttonContent": ""
+  },
+  "contents": [
+    {
+      "name": "Flexibility",
+      "description": "Users can scale services according to their needs, customize applications and access cloud services from anywhere via the Internet.",
+      "image": "",
+      "buttonContent": "",
+      "url": ""
+    },
+    {
+      "name": "Strategic benefit",
+      "description": "Cloud services give businesses a competitive edge by providing them with the most innovative technology available today.",
+      "image": "",
+      "buttonContent": "",
+      "url": ""
+    },
+    {
+      "name": "Efficiency",
+      "description": "Businesses can get applications to market quickly without worrying about the cost or maintenance of the underlying infrastructure.",
+      "image": "",
+      "buttonContent": "",
+      "url": ""
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+.nav {
+  padding: 1.2rem 0 !important;
+
+  li {
+    a {
+      font: {
+        size: 1rem;
+      }
+    }
+  }
+}
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  animation: header_sticky 0.7s ease-in-out;
+  z-index: 10;
+  background-color: $white-color;
+}
+
+@keyframes header-sticky {
+  0% {
+    margin-top: -1.2rem;
+    opacity: 0;
+  }
+  50% {
+    margin-top: -6.4rem;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "image": "/images/svg/Sending_mail.svg",
+  "heading": {
+    "title": "We are looking forward to your message",
+    "content": "",
+    "subContent": [],
+    "buttonContent": ""
+  },
+  "contents": {
+    "form": [
+      {
+        "element": "input",
+        "name": "Vornamen",
+        "placeholder": ""
+      },
+      {
+        "element": "input",
+        "name": "React",
+        "placeholder": ""
+      },
+      {
+        "element": "input",
+        "name": "Email",
+        "placeholder": "exam9@gmail.com"
+      },
+      {
+        "element": "input",
+        "name": "Telefon",
+        "placeholder": "(+49)-123-45678900"
+      },
+      {
+        "element": "textarea",
+        "name": "Ihre Nachricht",
+        "placeholder": "Typo message you want to send for us"
+      }
+    ],
+    "buttonContent": "Senden",
+    "infoContact": [
+      {
+        "icon": "location",
+        "name": "ADRESSE",
+        "description": " Quận 5, Thủ Đức, Việt Nam"
+      },
+      {
+        "icon": "envelope",
+        "name": "EMAIL",
+        "description": "info@tamle.de"
+      },
+      {
+        "icon": "telephone",
+        "name": "TELEFON",
+        "description": "(+49)-123-45678900"
+      }
+    ]
+  }
+}

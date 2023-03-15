@@ -1,0 +1,40 @@
+{
+  "heading": {
+    "title": "Prices",
+    "content": "Contact us for an individual offer.",
+    "subContent": [],
+    "buttonContent": ""
+  },
+  "contents": [
+    {
+      "rate": "",
+      "type": "Start",
+      "price": "Free",
+      "time": "",
+      "endow": ["10 deploys per day", "10 GB of storage", "20 domains"],
+      "description": "Sed ut unde omnis iste natus accusantium doloremque.",
+      "buttonContent": "Start for free",
+      "url": "#contact"
+    },
+    {
+      "rate": "Most Popular",
+      "type": "Pro",
+      "price": "$38",
+      "time": "/ mo",
+      "endow": ["200 deploys per day", "80 GB of storage", "Global CDN"],
+      "description": "Sed ut unde omnis iste natus accusantium doloremque.",
+      "buttonContent": "Buy Pro",
+      "url": "#contact"
+    },
+    {
+      "rate": "",
+      "type": "Business",
+      "price": "$78",
+      "time": "/ mo",
+      "endow": ["500 GB of storage", "Unlimited domains", "24/7 Support"],
+      "description": "Sed ut unde omnis iste natus accusantium doloremque.",
+      "buttonContent": "Buy Business",
+      "url": "#contact"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+/* This function should be used for font-size, padding, margin,...
+--------------------------------------------------------- */
+$font-size-defualt:16;
+
+@function rem($pixel) {
+    @if not $pixel {
+      @error 'Missing argument $pixel';
+    }
+  
+    @return ($pixel/$font-size-defualt) + rem;
+  }

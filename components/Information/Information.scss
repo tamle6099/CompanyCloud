@@ -1,0 +1,13 @@
+.info-card {
+	transition: 0.5s all;
+	.info-image {
+		position: absolute;
+		top: -50%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	&:hover {
+		transform: translateY(-10px);
+	}
+}

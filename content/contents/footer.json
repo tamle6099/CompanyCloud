@@ -1,0 +1,17 @@
+{
+  "image": "/dynexo_logo_white.svg",
+  "description": "Professional IT and cyber security solutions, consulting services, software development and the latest IT security products",
+  "license": "Copyright ©2023 TamLe. All Rights Reserved.",
+  "contents": [
+    {
+      "title": "Menu",
+      "linkList": [
+        { "link": "What is the cloud?", "url": "#information", "icon": "" },
+        { "link": "Benefits", "url": "#service", "icon": "" },
+        { "link": "About Us", "url": "#about", "icon": "" },
+        { "link": "Prices", "url": "#pricing", "icon": "" },
+        { "link": "Contact", "url": "#contact", "icon": "" }
+      ]
+    }
+  ]
+}

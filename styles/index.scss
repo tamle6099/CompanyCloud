@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global style */
+
+@import "./variables.scss";
+@import "./fonts.scss";
+@import "./functions.scss";
+@import "./global.scss";
+@import "./responsive.scss";
+
+/* Wrapper */
+
+/* Components */
+@import "../components/Header/Header.scss";
+@import "../components/Hero/Hero.scss";
+@import "../components/Information/Information.scss";
+@import "../components/About/About.scss";
+@import "../components/Service/Service.scss";
+@import "../components/Pricing/Pricing.scss";
+@import "../components/Contact/Contact.scss";
+@import "../components/Footer/Footer.scss";
+@import "../components/Icon/Icon.scss";

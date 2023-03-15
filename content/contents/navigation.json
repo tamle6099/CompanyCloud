@@ -1,0 +1,30 @@
+{
+  "brand": {
+    "image": "/dynexo_logo_white.svg",
+    "href": "#home"
+  },
+
+  "group": [
+    {
+      "href": "#information",
+      "content": "What is the cloud?"
+    },
+    {
+      "href": "#service",
+      "content": "Benefits"
+    },
+    {
+      "href": "#about",
+      "content": "About Us"
+    },
+
+    {
+      "href": "#pricing",
+      "content": "Prices"
+    },
+    {
+      "href": "#contact",
+      "content": "Contact"
+    }
+  ]
+}

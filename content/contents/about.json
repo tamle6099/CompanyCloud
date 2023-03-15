@@ -1,0 +1,34 @@
+{
+  "heading": {
+    "title": "We run and support our customers' cloud",
+    "content": " ",
+    "subContent": [
+      " IT-Netzwerk- und Cyber-Sicherheit",
+      " Penetration und Security Testing",
+      " IT-Systeme und Applikationen",
+      " SOAR",
+      " Operational Services",
+      " SOC"
+    ],
+    "buttonContent": "Learn more.."
+  },
+  "contents": [
+    {
+      "amount": "52",
+      "name": "Partner"
+    },
+    {
+      "amount": "115",
+      "name": "Employees"
+    },
+    {
+      "amount": "156",
+      "name": "Customers"
+    },
+    {
+      "amount": "207",
+      "name": "Projects"
+    }
+  ],
+  "href": "#"
+}

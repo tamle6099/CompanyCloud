@@ -1,0 +1,308 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Global style */
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../public/fonts/Rubik-Light.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: italic;
+  font-weight: 300;
+  src: url("../public/fonts/Rubik-LightItalic.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../public/fonts/Rubik-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../public/fonts/Rubik-Italic.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../public/fonts/Rubik-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../public/fonts/Rubik-MediumItalic.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../public/fonts/Rubik-SemiBold.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: italic;
+  font-weight: 600;
+  src: url("../public/fonts/Rubik-SemiBoldItalic.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../public/fonts/Rubik-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../public/fonts/Rubik-BoldItalic.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../public/fonts/Rubik-ExtraBold.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: italic;
+  font-weight: 800;
+  src: url("../public/fonts/Rubik-ExtraBoldItalic.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../public/fonts/Rubik-Black.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: italic;
+  font-weight: 900;
+  src: url("../public/fonts/Rubik-BlackItalic.ttf") format("truetype");
+  font-display: swap;
+}
+/* This function should be used for font-size, padding, margin,...
+--------------------------------------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik";
+  color: #000000;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1rem;
+}
+p:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+ul li:last-child,
+ol li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Wrapper */
+/* Components */
+.nav {
+  padding: 1.5rem 0 !important;
+}
+.nav li a {
+  font-size: 1rem;
+}
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0px 13px 35px -12px hwb(0 0% 100%/0.149);
+  -webkit-animation: header_sticky 0.7s ease-in-out;
+          animation: header_sticky 0.7s ease-in-out;
+  z-index: 10;
+  background-color: #ffffff;
+}
+
+@-webkit-keyframes header-sticky {
+  0% {
+    margin-top: -1.2rem;
+    opacity: 0;
+  }
+  50% {
+    margin-top: -6.4rem;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes header-sticky {
+  0% {
+    margin-top: -1.2rem;
+    opacity: 0;
+  }
+  50% {
+    margin-top: -6.4rem;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+.iframe-svg {
+  min-height: 21.875rem;
+}
+.iframe-svg iframe {
+  width: 100%;
+  min-height: 540px;
+  position: absolute;
+  top: -3.5rem;
+  right: 0;
+}
+.iframe-svg::before {
+  content: "";
+  width: 100%;
+  min-height: 540px;
+  position: absolute;
+  top: -3.5rem;
+  right: 0;
+  background-color: transparent;
+  z-index: 999;
+}
+
+@media screen and (min-width: 48rem) {
+  .iframe-svg iframe {
+    width: 100%;
+    top: -100%;
+    right: -5%;
+    transform: translateY(50%);
+  }
+  .iframe-svg::before {
+    width: 100%;
+    top: -100%;
+    right: -5%;
+    transform: translateY(50%);
+  }
+}
+.info-card {
+  transition: 0.5s all;
+}
+.info-card .info-image {
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.info-card:hover {
+  transform: translateY(-10px);
+}
+
+.contact-img {
+  -webkit-animation: float 2s infinite;
+          animation: float 2s infinite;
+}
+
+@-webkit-keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(1.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(1.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.a-icon {
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.a-icon-burger-menu {
+  background-image: url("../../public/icons/burger-menu.svg");
+}
+.a-icon-close-menu {
+  background-image: url("../../public/icons/close-menu.svg");
+}
+.a-icon-check-mark {
+  background-image: url("../../public/icons/check-mark.svg");
+}
+.a-icon-location {
+  background-image: url("../../public/icons/location.svg");
+}
+.a-icon-envelope {
+  background-image: url("../../public/icons/envelope.svg");
+}
+.a-icon-telephone {
+  background-image: url("../../public/icons/telephone.svg");
+}
+.a-icon-facebook {
+  background-image: url("../../public/icons/facebook.svg");
+}
+.a-icon-twitter {
+  background-image: url("../../public/icons/twitter.svg");
+}
+.a-icon-instagram {
+  background-image: url("../../public/icons/instagram.svg");
+}
+.a-icon-clickable {
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+.a-icon-clickable:hover {
+  opacity: 0.7;
+}/*# sourceMappingURL=index.css.map */

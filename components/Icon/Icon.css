@@ -1,0 +1,41 @@
+.a-icon {
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.a-icon-burger-menu {
+  background-image: url("../../public/icons/burger-menu.svg");
+}
+.a-icon-close-menu {
+  background-image: url("../../public/icons/close-menu.svg");
+}
+.a-icon-check-mark {
+  background-image: url("../../public/icons/check-mark.svg");
+}
+.a-icon-location {
+  background-image: url("../../public/icons/location.svg");
+}
+.a-icon-envelope {
+  background-image: url("../../public/icons/envelope.svg");
+}
+.a-icon-telephone {
+  background-image: url("../../public/icons/telephone.svg");
+}
+.a-icon-facebook {
+  background-image: url("../../public/icons/facebook.svg");
+}
+.a-icon-twitter {
+  background-image: url("../../public/icons/twitter.svg");
+}
+.a-icon-instagram {
+  background-image: url("../../public/icons/instagram.svg");
+}
+.a-icon-clickable {
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+.a-icon-clickable:hover {
+  opacity: 0.7;
+}/*# sourceMappingURL=Icon.css.map */
